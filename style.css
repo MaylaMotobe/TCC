@@ -162,7 +162,7 @@ body{
 
 /* LOGO NO NAV */
 .logo {
-    width: 13%;
+    width: 35%;
     
 }
 
@@ -171,8 +171,8 @@ body{
 
 nav{
     display: flex;
-    justify-content: space-between; 
-    align-items: center;
+    justify-content:space-between; 
+    align-items:center;
     height: var(--header-height);
     width: 100%;
 }
@@ -180,7 +180,8 @@ nav{
 nav ul li a{
     transition: color 0.3s; /* Colocar o color, para ocorrer a transição somente na cor */
     position: relative;
-    font-weight: 700;
+    font-weight: 700px;
+
 }
 
 nav ul li a:hover{
